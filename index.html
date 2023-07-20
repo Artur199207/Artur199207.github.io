@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="jquery.slim.min.js"></script>
+    <script defer src="popper.min.js"></script>
+    <script defer src="bootstrap.min.js"></script>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ekmalyan ARM</title>
+  </head>
+
+  <body>
+    <header class="header_container_nav">
+      <div class="flx_container">
+        <div class="logo"> <a href=""> START BOOTSTRAP</a></div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm navigation_container"
+        >
+
+          <div class="selectino_optinos">
+            <select name="sel" id="sel" onchange="window.location.href = this.value">
+              <option value="index.html">
+                ARM
+              </option>
+              <option value="frames.html">
+                FR
+              </option>
+             
+            </select>
+          </div>
+
+
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbars"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto navig_nav">
+              <!-- Megamenu-->
+              <li class="nav-item dropdown megamenu">
+                <a
+                  id="megamneu"
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle font-weight-bold text-uppercase"
+                  >ՑԱՆԿ</a
+                >
+                <div
+                  aria-labelledby="megamneu"
+                  class="dropdown-menu border-0 p-0 m-0"
+                >
+                  <div class="container">
+                    <div class="row bg-white rounded-0 m-0 shadow-sm">
+                      <div class="col-lg-7 col-xl-8">
+                        <div class="p-4">
+                          <div class="row">
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Կատալոգ Քանդակ Գծանկար
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a href="page1.html" class="nav-link text-small pb-0"
+                                    >Հաստոցային Քանդակ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="kotox.html" class="nav-link text-small pb-0"
+                                    >Կոթողային Քանդակ
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="./nkarazardum/zardum.html" class="nav-link text-small pb-0"
+                                    >Նկարազարդում</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="grafic.html" class="nav-link text-small pb-0"
+                                    >Գրաֆիկա</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="nyut.html" class="nav-link text-small pb-0"
+                                    >Նյութեր
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <h6 class="font-weight-bold text-uppercase">
+                                Արխիվ
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a href="mamul.html     " class="nav-link text-small pb-0"
+                                    >Մամուլ
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a href="afish.html" class="nav-link text-small pb-0"
+                                    >Աֆիշներ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="simpo.html" class="nav-link text-small pb-0"
+                                    >Սիմպոզիումներ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="./Cucahandes/cucahandes.html" class="nav-link text-small pb-0"
+                                    >Ցուցահանդեսներ
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Արվեստանոց
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a href="srah.html" class="nav-link text-small pb-0"
+                                    >Ցուցասրահ</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="studia.html" class="nav-link text-small pb-0"
+                                    >Ստուդիա</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="ashx.html" class="nav-link text-small pb-0"
+                                    >Աշխատավայր</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="bac.html" class="nav-link text-small pb-0"
+                                    >Բացօդյա</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Հավելյալ
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a href="unique.html" class="nav-link text-small pb-0"
+                                    >Արվեստանոց  </a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="image.html" class="nav-link text-small pb-0"
+                                    >Կատալոգ   </a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="auto.html" class="nav-link text-small pb-0"
+                                    >Հարություն Եկմալյան    </a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="news.html" class="nav-link text-small pb-0"
+                                    >Արխիվ  </a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="news.html" class="nav-link text-small pb-0"
+                                    >Հասարակական    </a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a href="news.html" class="nav-link text-small pb-0"
+                                    >Տեղեկատվություն    </a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                        style="
+                          background: center center url(media-foto/Apôtre2.jpg)
+                            no-repeat;
+                          background-size: cover;
+                        "
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link font-weight-bold text-uppercase"
+                  >Տեղեկատվություն</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link font-weight-bold text-uppercase"
+                  >Պատվիրիր</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./Form-registr/form.html" class="nav-link font-weight-bold text-uppercase"
+                  >ԿԱՊ</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  
+
+    <section class="container_middle">
+      <div class="container_centre body">
+        <div class="container_text">
+          <p class="cont-txt">ՀԱՐՈՒԹՅՈՒՆ ԵԿՄԱԼՅԱՆ</p>
+        </div>
+        <div class="options">
+          <div
+            class="option active"
+            style="--optionBackground: url(media-foto/1.jpg)"
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main"> 
+                  <a href="" class="container-kens">Կենսագրական</a>   </div>
+              </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground: url(media-foto/2.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a href="" class="container-kens" >Ցուցահանդես</a>
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          
+          <div class="option" style="--optionBackground: url(media-foto/3.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                <a href="" class="container-kens">Սիմպոզիուներ</a>  
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground: url(media-foto/4.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                <a href="" class="container-kens">Պատվերներ</a>  
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground: url(media-foto/5.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                <a href="" class="container-kens">Բուտիկ</a>  
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="option" style="--optionBackground: url(media-foto/6.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">Inatethi</div>
+                <div class="sub">Omuke trughte a otufta</div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Գտեք մեզ</h4>
+                  <span>1010 Avenue, sw 54321, chandigarh</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Զանգահարեք մեզ</h4>
+                  <span>+374 (98) 54 14 21</span>
+                  <span>+336 67 50 41 58</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Փոստով ուղարկեք մեզ</h4>
+                  <span>harutyun.yekmalyan@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="./index.html"
+                    ><img
+                      src="./logo/H.logo.jpg"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
+                </div>
+                <!-- <div class="footer-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div> -->
+                <div class="footer-social-icon">
+                  <span>Հետեւեք մեզ</span>
+                  <a href="https://www.facebook.com/GalerieYekmalyan/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="https://www.facebook.com/yekmalyan.khatchkar/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="https://twitter.com/YekmalyanGaller"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="https://www.instagram.com/atelier.yekmalyan/">  <i class="fab fa-instagram"></i></a>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>ՑԱՆԿ</h3>
+                </div>
+                <ul>
+                  <li><a href="./page1.html">Հաստոցային Քանդակ</a></li>
+                  <li><a href="./kotox.html">Կոթողային Քանդակ</a></li>
+                  <li><a href="./nkarazardum/zardum.html">Նկարազարդում</a></li>
+                  <li><a href="#">Գրաֆիկա</a></li>
+                  <li><a href="#">Նյութեր</a></li>
+                  <li><a href="#">Արխիվ</a></li>
+                  <li><a href="#">Մամուլ</a></li>
+                  <li><a href="#">Սիմպոզիումներ</a></li>
+                  <li><a href="#">Աշխատավայր</a></li>
+                  <li><a href="#">Ստուդիա</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Օգտակար հղումներ</h3>
+                </div>
+                <ul id="container_columm">
+                  <li><a href="">Կենսագրական</a></li>
+                  <li><a href="#">Ցուցահանդես</a></li>
+                  <li><a href="#">Սիմպոզիուներ</a></li>
+                  <li><a href="#">Պատվերներ</a></li>
+                  <li><a href="./Form-registr/form.html">ԿԱՊ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-space">© Բոլոր իրավունքները պաշտպանված են Արթուր Պարոնյան  +(374)33-26-84-26</div>
+    </footer>
+  </body>
+</html>
