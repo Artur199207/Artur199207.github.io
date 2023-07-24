@@ -13,6 +13,9 @@ body{
   border: none;
   width: 100%;
 }
+.sil-text{
+  position: absolute;
+}
 
 .header_container_nav {
   /* width: 100vw; */
