@@ -1062,6 +1062,28 @@ html {
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
+@media screen and (max-width:769px) {
+  .footer-cta{
+    max-width: 500px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-cta .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 500px;
+    width: 100%;
+    min-height: 350px;
+}
+  }
+
 .single-cta i {
   color: #ff5e14;
   font-size: 30px;
