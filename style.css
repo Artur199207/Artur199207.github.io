@@ -1239,6 +1239,42 @@ html {
   color: #878787;
 }
 
+
+@media screen and (max-width: 800px){
+.carousel__contents {
+    transform: translateX(-100%) rotate(90deg);
+    transform-origin: bottom right;
+    align-items: center;
+    /* justify-content: ; */
+    background-image: radial-gradient( ellipse at 100% 100%, rgba(0, 0, 0, 0.4) 0%, transparent 50% );
+    background-position: -100% 100%;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    /* text-align: right; */
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-space{
   font-size: 14px;
   font-weight: 400;
