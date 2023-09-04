@@ -75,84 +75,8 @@ body{
     to right,
     #2c3e50,
     #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background-color: hsl(200, 1%, 21%); */
-  /* animation:anim 10s ease infinite ;
-   transition: 2s ease 0s; */
+  ); 
 }
-/* @keyframes anim{
-  0%{
-    background-image: url(./animation/arj1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  24%{
-    background-image: url(./animation/arj1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  25%{
-    background-image: url(./animation/arj2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  49%{
-    background-image: url(./animation/arj2.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  50%{
-    background-image: url(./animation/arj3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  74%{
-    background-image: url(./animation/arj3.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  75%{
-
-    background-image: url(./animation/arj4.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-  100%{
-    background-image: url(./animation/arj4.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    transition: 1s ease 0s;
-  }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
