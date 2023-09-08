@@ -1,55 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-  integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha5
-12-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha5
+12-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./bootstrap.min.css" />
-    <link rel="icon" href="../logo/H.logo.jpg">
+    <link rel="icon" href="../logo/H.logo.jpg" />
     <link rel="stylesheet" href="../style.css" />
     <script defer src="./jquery.slim.min.js"></script>
     <script defer src="./popper.min.js"></script>
     <script defer src="./bootstrap.min.js"></script>
     <script defer src="./script.js"></script>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biographie</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header_container_nav">
-        <div class="flx_container">
-          <div class="logo"> <a href="../frames.html">Accueil</a> </div>
-          <nav
-            class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm navigation_container"
+      <div class="flx_container">
+        <div class="logo"><a href="../frames.html">Accueil</a></div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm navigation_container"
+        >
+          <div class="selectino_optinos">
+            <select
+              name="sel"
+              id="sel"
+              onchange="window.location.href = this.value"
+            >
+              <option value="kensagrutyunfr.html">FR</option>
+              <option value="kensagrutyun.html">ARM</option>
+            </select>
+          </div>
+
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbars"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
           >
-  
-            <div class="selectino_optinos">
-              <select name="sel" id="sel" onchange="window.location.href = this.value">
-                <option value="kensagrutyunfr.html">
-                  FR
-                </option>
-                <option value="kensagrutyun.html">
-                  ARM
-                </option>
-               
-              </select>
-            </div>
-  
-  
-            <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars"
-            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="navbarContent" class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto navig_nav">
               <!-- Megamenu-->
               <li class="nav-item dropdown megamenu">
-                <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                  class="nav-link dropdown-toggle font-weight-bold text-uppercase">Menu</a>
-                <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                <a
+                  id="megamneu"
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle font-weight-bold text-uppercase"
+                  >Menu</a
+                >
+                <div
+                  aria-labelledby="megamneu"
+                  class="dropdown-menu border-0 p-0 m-0"
+                >
                   <div class="container">
                     <div class="row bg-white rounded-0 m-0 shadow-sm">
                       <div class="col-lg-7 col-xl-8">
@@ -57,63 +80,107 @@
                           <div class="row">
                             <div class="col-lg-6 mb-4">
                               <h6 class="font-weight-bold text-uppercase">
-                           Catalogue Sculpture Petite 
+                                Catalogue Sculpture Petite
                               </h6>
                               <ul class="list-unstyled">
                                 <li class="nav-item">
-                                  <a href="../page1FR.html" class="nav-link text-small pb-0">Sculpture de salon</a>
+                                  <a
+                                    href="../page1FR.html"
+                                    class="nav-link text-small pb-0"
+                                    >Sculpture de salon</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../kotox_FR.html" class="nav-link text-small pb-0">Sculpture monumentale
+                                  <a
+                                    href="../kotox_FR.html"
+                                    class="nav-link text-small pb-0"
+                                    >Sculpture monumentale
                                   </a>
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../nkarazardum/zardumfr.html" class="nav-link text-small pb-0">Illustrations</a>
+                                  <a
+                                    href="../nkarazardum/zardumfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Illustrations</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../grafika/grafikafr.html" class="nav-link text-small pb-0">Graphisme</a>
+                                  <a
+                                    href="../grafika/grafikafr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Graphisme</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../nyuter/nyuterfr.html" class="nav-link text-small pb-0">Matières
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                            <div class="col-lg-6 mb-4"> 
-                              <h6 class="font-weight-bold text-uppercase">
-                                Archives 
-                              </h6>
-                              <ul class="list-unstyled">
-                                <li class="nav-item">
-                                  <a href="../Mamul/mamulfr.html" class="nav-link text-small pb-0">Presse/Médias
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a href="../Afishner/afishfr.html" class="nav-link text-small pb-0">Affiches</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a href="../simpozeum/simpozeumfr.html" class="nav-link text-small pb-0">Symposiums</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a href="../Cucahandes/cucfr.html" class="nav-link text-small pb-0">Expos
+                                  <a
+                                    href="../nyuter/nyuterfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Matières
                                   </a>
                                 </li>
                               </ul>
                             </div>
                             <div class="col-lg-6 mb-4">
                               <h6 class="font-weight-bold text-uppercase">
-                                  Atelier
+                                Archives
                               </h6>
                               <ul class="list-unstyled">
                                 <li class="nav-item">
-                                  <a href="../cucasrah/cucasrahfr.html" class="nav-link text-small pb-0">Galerie</a>
+                                  <a
+                                    href="../Mamul/mamulfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Presse/Médias
+                                  </a>
                                 </li>
-                             
                                 <li class="nav-item">
-                                  <a href="../ashxatavayr/ashxatavayrfr.html" class="nav-link text-small pb-0">Atelier</a>
+                                  <a
+                                    href="../Afishner/afishfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Affiches</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../bacotya/bacodyafr.html" class="nav-link text-small pb-0">Pleine air</a>
+                                  <a
+                                    href="../simpozeum/simpozeumfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Symposiums</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="../Cucahandes/cucfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Expos
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Atelier
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a
+                                    href="../cucasrah/cucasrahfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Galerie</a
+                                  >
+                                </li>
+
+                                <li class="nav-item">
+                                  <a
+                                    href="../ashxatavayr/ashxatavayrfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Atelier</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="../bacotya/bacodyafr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Pleine air</a
+                                  >
                                 </li>
                               </ul>
                             </div>
@@ -123,40 +190,67 @@
                               </h6>
                               <ul class="list-unstyled">
                                 <li class="nav-item">
-                                  <a href="../arvestanoc/arvestanocfr.html" class="nav-link text-small pb-0">Atelier</a>
+                                  <a
+                                    href="../arvestanoc/arvestanocfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Atelier</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../catalog/catalogfr.html" class="nav-link text-small pb-0">Galerie</a>
+                                  <a
+                                    href="../catalog/catalogfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Galerie</a
+                                  >
                                 </li>
                                 <li class="nav-item">
-                                  <a href="../Yekmalyan_kensagrutyun/kensagrutyunfr.html" class="nav-link text-small pb-0">Harut Yekmalyan</a>
+                                  <a
+                                    href="../Yekmalyan_kensagrutyun/kensagrutyunfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Harut Yekmalyan</a
+                                  >
                                 </li>
-                                
+
                                 <li class="nav-item">
-                                  <a href="../hasarakakan/hasarakakanfr.html" class="nav-link text-small pb-0">Public</a>
+                                  <a
+                                    href="../hasarakakan/hasarakakanfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Public</a
+                                  >
                                 </li>
-                              
                               </ul>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="
-                            background: center center url(media-foto/Apôtre2.jpg) no-repeat;
-                            background-size: cover;
-                          "></div>
+                      <div
+                        class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                        style="
+                          background: center center url(media-foto/Apôtre2.jpg)
+                            no-repeat;
+                          background-size: cover;
+                        "
+                      ></div>
                     </div>
                   </div>
                 </div>
               </li>
-                <!-- <li class="nav-item">
+              <!-- <li class="nav-item">
                   <a href="" class="nav-link font-weight-bold text-uppercase">Informations</a>
                 </li> -->
               <li class="nav-item">
-                <a href="../Patvirir/patvirifr.html" class="nav-link font-weight-bold text-uppercase">Commander</a>
+                <a
+                  href="../Patvirir/patvirifr.html"
+                  class="nav-link font-weight-bold text-uppercase"
+                  >Commander</a
+                >
               </li>
               <li class="nav-item">
-                <a href="../Form-registr/formFR.html" class="nav-link font-weight-bold text-uppercase">Contact</a>
+                <a
+                  href="../Form-registr/formFR.html"
+                  class="nav-link font-weight-bold text-uppercase"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -164,67 +258,34 @@
       </div>
     </header>
 
-
-
-
-
-
-      <section>
-        <div class="container-main-master">
-    
-            <div class="container-master-info">
-                <h3 class="container-master-info1">
-                  Harutyun Yekmalyan
-                  Sculpteur plasticien.
-                  Né en 1965.
-                  Diplômé de l&#39;Académie nationale des Beaux arts d&#39;Arménie en 1983.
-                  Affilié à la Maison des artistes (France).
-                  Membre de l&#39;Union des artistes d&#39;Arménie depuis 1991.
-                  Sociétaire de la SAIF (France) depuis 2002.
-                  Adhérent du Syndicat national des sculpteurs et plasticiens, SNSP, (France) depuis 2003.
-                  Membre du conseil national du SNSP depuis 2009.
-                  Secrétaire général du SNSP de 2014 à 2021.
-                  Professeur de dessin et de sculpture à la faculté de l&#39;architecture de l&#39;Université nationale
-                  d&#39;architecture de construction d&#39;Arménie de 1991 à 1999.
-                  Professeur de dessin à la faculté des Arts appliqués de l&#39;Académie d&#39;État des Beaux arts
-                  d&#39;Arménie de 1995 à 1999.
-                  Installé en France depuis 1999.
-                  Ses œuvres font partie des collections publiques et privées en Arménie, au Brésil, au
-                  Canada, en France, en Espagne, en Italie et au Portugal.
-                </h3>
-            </div>
-            <div class="container-master-img">
-                <img src="./DSC_0209.jpg" alt="" width="100%">
-                <h2> Harutyun Yekmalyan
-                    </h2>
-            </div>
+    <section>
+      <div class="container-main-master">
+        <div class="container-master-img">
+          <img src="./DSC_0209.jpg" alt="" width="100%" />
+          <h2>Harutyun Yekmalyan</h2>
         </div>
+        <div class="container-master-info">
+          <p class="container-master-info1">
+            Harutyun Yekmalyan Sculpteur plasticien. Né en 1965. Diplômé de
+            l&#39;Académie nationale des Beaux arts d&#39;Arménie en 1983.
+            Affilié à la Maison des artistes (France). Membre de l&#39;Union des
+            artistes d&#39;Arménie depuis 1991. Sociétaire de la SAIF (France)
+            depuis 2002. Adhérent du Syndicat national des sculpteurs et
+            plasticiens, SNSP, (France) depuis 2003. Membre du conseil national
+            du SNSP depuis 2009. Secrétaire général du SNSP de 2014 à 2021.
+            Professeur de dessin et de sculpture à la faculté de
+            l&#39;architecture de l&#39;Université nationale d&#39;architecture
+            de construction d&#39;Arménie de 1991 à 1999. Professeur de dessin à
+            la faculté des Arts appliqués de l&#39;Académie d&#39;État des Beaux
+            arts d&#39;Arménie de 1995 à 1999. Installé en France depuis 1999.
+            Ses œuvres font partie des collections publiques et privées en
+            Arménie, au Brésil, au Canada, en France, en Espagne, en Italie et
+            au Portugal.
+          </p>
+        </div>
+      </div>
     </section>
-    
-    
-    
-    
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
     <footer class="footer-section">
       <div class="container">
         <div class="footer-cta pt-5 pb-5">
@@ -235,9 +296,8 @@
                 <div class="cta-text">
                   <h4>Trouvez-nous</h4>
                   <span class="sil-text">
-                    26 rue de la Mémoire
-                    03250 Châtel Montagne 
-                    France</span>
+                    26 rue de la Mémoire 03250 Châtel Montagne France</span
+                  >
                 </div>
               </div>
             </div>
@@ -268,10 +328,7 @@
               <div class="footer-widget">
                 <div class="footer-logo">
                   <a href="../frames.html"
-                    ><img
-                      src="../logo/H.logo.jpg"
-                      class="img-fluid"
-                      alt="logo"
+                    ><img src="../logo/H.logo.jpg" class="img-fluid" alt="logo"
                   /></a>
                 </div>
                 <!-- <div class="footer-text">
@@ -283,11 +340,18 @@
                 </div> -->
                 <div class="footer-social-icon">
                   <span>Suivez nous</span>
-                  <a href="https://www.facebook.com/GalerieYekmalyan/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                  <a href="https://www.facebook.com/yekmalyan.khatchkar/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                  <a href="https://twitter.com/YekmalyanGaller"><i class="fab fa-twitter twitter-bg"></i></a>
-                  <a href="https://www.instagram.com/atelier.yekmalyan/">  <i class="fab fa-instagram"></i></a>
-                 
+                  <a href="https://www.facebook.com/GalerieYekmalyan/"
+                    ><i class="fab fa-facebook-f facebook-bg"></i
+                  ></a>
+                  <a href="https://www.facebook.com/yekmalyan.khatchkar/"
+                    ><i class="fab fa-facebook-f facebook-bg"></i
+                  ></a>
+                  <a href="https://twitter.com/YekmalyanGaller"
+                    ><i class="fab fa-twitter twitter-bg"></i
+                  ></a>
+                  <a href="https://www.instagram.com/atelier.yekmalyan/">
+                    <i class="fab fa-instagram"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -299,14 +363,22 @@
                 <ul>
                   <li><a href="../page1FR.html">Sculpture de salon</a></li>
                   <li><a href="../kotox_FR.html">Sculpture monumentale</a></li>
-                  <li><a href="../nkarazardum/zardumfr.html">Illustrations</a></li>
+                  <li>
+                    <a href="../nkarazardum/zardumfr.html">Illustrations</a>
+                  </li>
                   <li><a href="../grafika/grafikafr.html">Graphisme</a></li>
                   <li><a href="../catalog/catalogfr.html">Galerie</a></li>
-                  <li><a href="../ashxatavayr/ashxatavayrfr.html">Atelier</a></li>
+                  <li>
+                    <a href="../ashxatavayr/ashxatavayrfr.html">Atelier</a>
+                  </li>
                   <li><a href="../Mamul/mamulfr.html">Presse/Médias</a></li>
-                  <li><a href="../simpozeum/simpozeumfr.html">Symposiums</a></li>
+                  <li>
+                    <a href="../simpozeum/simpozeumfr.html">Symposiums</a>
+                  </li>
                   <li><a href="../arvestanoc/arvestanocfr.html">Atelier</a></li>
-                  <li><a href="../hasarakakan/hasarakakanfr.html">Public</a></li>
+                  <li>
+                    <a href="../hasarakakan/hasarakakanfr.html">Public</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -316,9 +388,15 @@
                   <h3>Liens utiles</h3>
                 </div>
                 <ul id="container_columm">
-                  <li><a href="../Yekmalyan_kensagrutyun/kensagrutyunfr.html"> Biographie </a></li>
+                  <li>
+                    <a href="../Yekmalyan_kensagrutyun/kensagrutyunfr.html">
+                      Biographie
+                    </a>
+                  </li>
                   <li><a href="../Cucahandes/cucfr.html">Exposition</a></li>
-                  <li><a href="../simpozeum/simpozeumfr.html"> Symposiums </a></li>
+                  <li>
+                    <a href="../simpozeum/simpozeumfr.html"> Symposiums </a>
+                  </li>
                   <li><a href="../Patvirir/patvirifr.html">Commandes </a></li>
                   <li><a href="../Form-registr/formFR.html">Contact</a></li>
                 </ul>
@@ -327,11 +405,9 @@
           </div>
         </div>
       </div>
-      <div class="container-space">© All rights reserved Artur Paronyan  +(374)33-26-84-26</div>
+      <div class="container-space">
+        © All rights reserved Artur Paronyan +(374)33-26-84-26
+      </div>
     </footer>
-
-
-
-
-</body>
+  </body>
 </html>
