@@ -1,361 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha5
-12-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="icon" href="./logo/H.logo.jpg">
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="jquery.slim.min.js"></script>
-  <script defer src="popper.min.js"></script>
-  <script defer src="bootstrap.min.js"></script>
-  <script defer src="script.js"></script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page d'accueil</title>
-</head>
+  <head>
+    <link
+      href="./Yekmalyan_kensagrutyun/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./Yekmalyan_kensagrutyun/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+<link rel="stylesheet" href="./portfolio.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha5
+12-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="icon" href="./logo/H.logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="jquery.slim.min.js"></script>
+    <script defer src="popper.min.js"></script>
+    <script defer src="bootstrap.min.js"></script>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page d'accueil</title>
+  </head>
 
-<body>
-  <header class="header_container_nav">
-    <div class="flx_container">
-      <div class="logo"> <a href="frames.html">Accueil</a> </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm navigation_container">
-        
-        <div class="selectino_optinos">
-          <select name="sel" id="sel" onchange="window.location.href = this.value">
-            <option value="frames.html">
-              FR
-            </option>
-            <option value="index.html">
-              ARM
-            </option>
-           
-          </select>
-        </div>
+  <body>
+    <header class="header_container_nav">
+      <div class="flx_container">
+        <div class="logo"><a href="frames.html">Accueil</a></div>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm navigation_container"
+        >
+          <div class="selectino_optinos">
+            <select
+              name="sel"
+              id="sel"
+              onchange="window.location.href = this.value"
+            >
+              <option value="frames.html">FR</option>
+              <option value="index.html">ARM</option>
+            </select>
+          </div>
 
-        <button type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbars"
-          aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav mx-auto navig_nav">
-            <!-- Megamenu-->
-            <li class="nav-item dropdown megamenu">
-              <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                class="nav-link dropdown-toggle font-weight-bold text-uppercase">Menu</a>
-              <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
-                <div class="container">
-                  <div class="row bg-white rounded-0 m-0 shadow-sm">
-                    <div class="col-lg-7 col-xl-8">
-                      <div class="p-4">
-                        <div class="row">
-                          <div class="col-lg-6 mb-4">
-                            <h6 class="font-weight-bold text-uppercase">
-                         Catalogue Sculpture Petite 
-                            </h6>
-                            <ul class="list-unstyled">
-                              <li class="nav-item">
-                                <a href="page1FR.html" class="nav-link text-small pb-0">Sculpture de salon</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="kotox_FR.html" class="nav-link text-small pb-0">Sculpture monumentale
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./nkarazardum/zardumfr.html" class="nav-link text-small pb-0">Illustrations</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./grafika/grafikafr.html" class="nav-link text-small pb-0">Graphisme</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./nyuter/nyuterfr.html" class="nav-link text-small pb-0">Matières
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 mb-4"> 
-                            <h6 class="font-weight-bold text-uppercase">
-                              Archives 
-                            </h6>
-                            <ul class="list-unstyled">
-                              <li class="nav-item">
-                                <a href="./Mamul/mamulfr.html" class="nav-link text-small pb-0">Presse/Médias
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./Afishner/afishfr.html" class="nav-link text-small pb-0">Affiches</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./simpozeum/simpozeumfr.html" class="nav-link text-small pb-0">Symposiums</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./Cucahandes/cucfr.html" class="nav-link text-small pb-0">Expos
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 mb-4">
-                            <h6 class="font-weight-bold text-uppercase">
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbars"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto navig_nav">
+              <!-- Megamenu-->
+              <li class="nav-item dropdown megamenu">
+                <a
+                  id="megamneu"
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  class="nav-link dropdown-toggle font-weight-bold text-uppercase"
+                  >Menu</a
+                >
+                <div
+                  aria-labelledby="megamneu"
+                  class="dropdown-menu border-0 p-0 m-0"
+                >
+                  <div class="container">
+                    <div class="row bg-white rounded-0 m-0 shadow-sm">
+                      <div class="col-lg-7 col-xl-8">
+                        <div class="p-4">
+                          <div class="row">
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Catalogue Sculpture Petite
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a
+                                    href="page1FR.html"
+                                    class="nav-link text-small pb-0"
+                                    >Sculpture de salon</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="kotox_FR.html"
+                                    class="nav-link text-small pb-0"
+                                    >Sculpture monumentale
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./nkarazardum/zardumfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Illustrations</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./grafika/grafikafr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Graphisme</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./nyuter/nyuterfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Matières
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Archives
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a
+                                    href="./Mamul/mamulfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Presse/Médias
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./Afishner/afishfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Affiches</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./simpozeum/simpozeumfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Symposiums</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./Cucahandes/cucfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Expos
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
                                 Atelier
-                            </h6>
-                            <ul class="list-unstyled">
-                              <li class="nav-item">
-                                <a href="./cucasrah/cucasrahfr.html" class="nav-link text-small pb-0">Galerie</a>
-                              </li>
-                           
-                              <li class="nav-item">
-                                <a href="./ashxatavayr/ashxatavayrfr.html" class="nav-link text-small pb-0">Atelier</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./bacotya/bacodyafr.html" class="nav-link text-small pb-0">Pleine air</a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 mb-4">
-                            <h6 class="font-weight-bold text-uppercase">
-                              Complémentaire
-                            </h6>
-                            <ul class="list-unstyled">
-                              <li class="nav-item">
-                                <a href="./arvestanoc/arvestanocfr.html" class="nav-link text-small pb-0">Atelier</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./catalog/catalogfr.html" class="nav-link text-small pb-0">Galerie</a>
-                              </li>
-                              <li class="nav-item">
-                                <a href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html" class="nav-link text-small pb-0">Harut Yekmalyan</a>
-                              </li>
-                              
-                              <li class="nav-item">
-                                <a href="./hasarakakan/hasarakakanfr.html" class="nav-link text-small pb-0">Public</a>
-                              </li>
-                            
-                            </ul>
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a
+                                    href="./cucasrah/cucasrahfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Galerie</a
+                                  >
+                                </li>
+
+                                <li class="nav-item">
+                                  <a
+                                    href="./ashxatavayr/ashxatavayrfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Atelier</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./bacotya/bacodyafr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Pleine air</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                              <h6 class="font-weight-bold text-uppercase">
+                                Complémentaire
+                              </h6>
+                              <ul class="list-unstyled">
+                                <li class="nav-item">
+                                  <a
+                                    href="./arvestanoc/arvestanocfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Atelier</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./catalog/catalogfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Galerie</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a
+                                    href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Harut Yekmalyan</a
+                                  >
+                                </li>
+
+                                <li class="nav-item">
+                                  <a
+                                    href="./hasarakakan/hasarakakanfr.html"
+                                    class="nav-link text-small pb-0"
+                                    >Public</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block" style="
-                          background: center center url(media-foto/Apôtre2.jpg) no-repeat;
+                      <div
+                        class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                        style="
+                          background: center center url(media-foto/Apôtre2.jpg)
+                            no-repeat;
                           background-size: cover;
-                        "></div>
+                        "
+                      ></div>
+                    </div>
                   </div>
                 </div>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  href="./Patvirir/patvirifr.html"
+                  class="nav-link font-weight-bold text-uppercase"
+                  >Commander</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="./Form-registr/formFR.html"
+                  class="nav-link font-weight-bold text-uppercase"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- End -->
+
+
+
+
+
+
+
+
+
+    <section>
+      <div class="background_url_image"></div>
+    </section>
+    <section class="container_middle">
+      <div class="container_centre body">
+        <div class="container_text">
+          <!-- <p class="cont-txt">Harut Yekmalyan</p> -->
+        </div>
+        <div class="options">
+          <div
+            class="option active"
+            style="
+              --optionBackground: url(./Yekmalyan_kensagrutyun/DSC_0209.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a
+                    href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html"
+                    class="container-kens"
+                    >Biographie</a
+                  >
+                </div>
               </div>
-            </li>
-              <!-- <li class="nav-item">
-                <a href="" class="nav-link font-weight-bold text-uppercase">Informations</a>
-              </li> -->
-            <li class="nav-item">
-              <a href="./Patvirir/patvirifr.html" class="nav-link font-weight-bold text-uppercase">Commander</a>
-            </li>
-            <li class="nav-item">
-              <a href="./Form-registr/formFR.html" class="nav-link font-weight-bold text-uppercase">Contact</a>
-            </li>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="--optionBackground: url(./Cucahandes/glxavor.jpg)"
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a href="./Cucahandes/cucfr.html" class="container-kens"
+                    >Expositions</a
+                  >
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="--optionBackground: url(./simpozeum/nkarner.jpg)"
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a href="./simpozeum/simpozeumfr.html" class="container-kens"
+                    >Symposioms</a
+                  >
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          <div class="option" style="--optionBackground: url(./Patvirir/4.jpg)">
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a href="./Patvirir/patvirifr.html" class="container-kens"
+                    >Commandes</a
+                  >
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="option"
+            style="
+              --optionBackground: url(./butik-krpak/IMG_20220215_162647~2.jpg);
+            "
+          >
+            <div class="shadow"></div>
+            <div class="label">
+              <div class="info">
+                <div class="main">
+                  <a href="./butik-krpak/krpakfr.html" class="container-kens"
+                    >Boutique</a
+                  >
+                </div>
+                <!-- <div class="sub">Omuke trughte a otufta</div> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Catalogue Sculpture</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">Général</li>
+            <li data-filter=".filter-web">Sculpture monumentale</li>
+            <!-- <li data-filter=".filter-card">Ցուցահանդեսներ</li> -->
+            <li data-filter=".filter-app">Sculpture de salon</li>
           </ul>
         </div>
-      </nav>
-    </div>
-  </header>
-
-  <!-- End -->
-
-  <section>
-    <div class="background_url_image"></div>
-  </section>
-  <section class="container_middle">
-    <div class="container_centre body">
-      <div class="container_text">
-        <!-- <p class="cont-txt">Harut Yekmalyan</p> -->
       </div>
-      <div class="options">
-        <div class="option active" style="--optionBackground:url(./Yekmalyan_kensagrutyun/DSC_0209.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-            
-              <div class="info">
-                 <div class="main">
-                  <a href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html" class="container-kens">Biographie</a> 
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="./hast_img/Ս‌բ.Հակոբի նավը/hakobi_nav2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Le Bateau de Saint Jacques</h4>
+              <p>Le Bateau de Saint Jacques</p>
+              <div class="portfolio-links">
+                <a href="./hast_img/Ս‌բ.Հակոբի նավը/hakobi_nav2.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Le Bateau de Saint Jacques"><i class="bx bx-plus"></i></a>
+                <a href="./hakobi_navy/hakobi_navy_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="./kotox/Արջը լրացում‌/arjy1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Լ’Ours</h4>
+              <p>Լ’Ours</p>
+              <div class="portfolio-links">
+                <a href="./kotox/Արջը լրացում‌/arjy1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Լ’Ours"><i class="bx bx-plus"></i></a>
+                <a href="./arjy/arjy_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="./kotox//փղի լոգանքը/pxi_glux1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>  La baignade d’un éléphant</h4>
+              <p>  La baignade d’un éléphant</p>
+              <div class="portfolio-links">
+                <a href="./kotox//փղի լոգանքը/pxi_glux1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="  La baignade d’un éléphant"><i class="bx bx-plus"></i></a>
+                <a href="./pxi_loganqy/pxi_loganqy_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="./hast_img/Գ‌որգով փղիկը/gorgov_pix1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4> L'éléphant drapé</h4>
+              <p> L'éléphant drapé</p>
+              <div class="portfolio-links">
+                <a href="./hast_img/Գ‌որգով փղիկը/gorgov_pix1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title=" L'éléphant drapé"><i class="bx bx-plus"></i></a>
+                <a href="./gorgov_pxik/gorgov_pxik_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="./kotox/ԹԱՏՐՈՆ/tatron3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>   Le Théâtre</h4>
+              <p>   Le Théâtre</p>
+              <div class="portfolio-links">
+                <a href="./kotox/ԹԱՏՐՈՆ/tatron3.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="   Le Théâtre"><i class="bx bx-plus"></i></a>
+                <a href="./tatron/tatron_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="./kotox/կոմեդիա դել արտե/komedia4.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4> La Comedia del Arte</h4>
+              <p> La Comedia del Arte</p>
+              <div class="portfolio-links">
+                <a href="./kotox/կոմեդիա դել արտե/komedia4.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title=" La Comedia del Arte"><i class="bx bx-plus"></i></a>
+                <a href="./komedia/komedia_FR.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="./hast_img/komedia del arte/komedia1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4> La Comedia del Arte</h4>
+              <p> La Comedia del Arte</p>
+              <div class="portfolio-links">
+                <a href="./hast_img/komedia del arte/komedia1.png" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title=" La Comedia del Arte"><i class="bx bx-plus"></i></a>
+                <a href="./hast_comdeia/delartefr.html" class="portfolio-details-lightbox" data-glightbox="type: external"
+                  title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Trouvez-nous</h4>
+                  <span class="sil-text">
+                    26 rue de la Mémoire 03250 Châtel Montagne
+France</span
+                  >
                 </div>
- 
-              </div>
-           </div>
-        </div>
-        <div class="option" style="--optionBackground:url(./Cucahandes/glxavor.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-          
-              <div class="info">
-                 <div class="main">
-                  <a href="./Cucahandes/cucfr.html" class="container-kens">Expositions</a> 
-                 </div>
-                 <!-- <div class="sub">Omuke trughte a otufta</div> -->
-              </div>
-           </div>
-        </div>
-        <div class="option" style="--optionBackground:url(./simpozeum/nkarner.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-          
-              <div class="info">
-                 <div class="main">
-                  <a href="./simpozeum/simpozeumfr.html" class="container-kens">Symposioms</a> 
-                 </div>
-                 <!-- <div class="sub">Omuke trughte a otufta</div> -->
-              </div>
-           </div>
-        </div>
-        <div class="option" style="--optionBackground:url(./Patvirir/4.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-          
-              <div class="info">
-                 <div class="main">
-                  <a href="./Patvirir/patvirifr.html" class="container-kens">Commandes</a> 
-                 </div>
-                 <!-- <div class="sub">Omuke trughte a otufta</div> -->
-              </div>
-           </div>
-        </div>
-        <div class="option" style="--optionBackground:url(./butik-krpak/IMG_20220215_162647~2.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-          
-              <div class="info">
-                 <div class="main">
-                  <a href="./butik-krpak/krpakfr.html" class="container-kens">Boutique</a> 
-                 </div>
-                 <!-- <div class="sub">Omuke trughte a otufta</div> -->
-              </div>
-           </div>
-        </div>
-        
-        <!-- <div class="option" style="--optionBackground:url(media-foto/6.jpg);">
-           <div class="shadow"></div>
-           <div class="label">
-         
-              <div class="info">
-                 <div class="main">Inatethi</div>
-                 <div class="sub">Omuke trughte a otufta</div>
-              </div>
-           </div>
-        </div> -->
-     
-     
-     </div>
-    </div>
-  </section>
-
- 
-  <footer class="footer-section">
-    <div class="container">
-      <div class="footer-cta pt-5 pb-5">
-        <div class="row">
-          <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-              <i class="fas fa-map-marker-alt"></i>
-              <div class="cta-text">
-                <h4>Trouvez-nous</h4>
-                <span class="sil-text">
-                  26 rue de la Mémoire
-                  03250 Châtel Montagne 
-                  France</span>
               </div>
             </div>
-          </div>
-          <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-              <i class="fas fa-phone"></i>
-              <div class="cta-text">
-                <h4>Appelez-nous</h4>
-                <span>+374 (98) 54 14 21</span>
-                <span>+336 67 50 41 58</span>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Appelez-nous</h4>
+                  <span>+374 (98) 54 14 21</span>
+                  <span>+33 (6) 67 50 41 58</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-4 col-md-4 mb-30">
-            <div class="single-cta">
-              <i class="far fa-envelope-open"></i>
-              <div class="cta-text">
-                <h4>Envoyez-nous vos messages</h4>
-                <span>harutyun.yekmalyan@gmail.com</span>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Envoyez-nous vos messages</h4>
+                  <span>harutyun.yekmalyan@gmail.com</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="footer-content pt-5 pb-5">
-        <div class="row">
-          <div class="col-xl-4 col-lg-4 mb-50">
-            <div class="footer-widget">
-              <div class="footer-logo">
-                <a href="./frames.html"
-                  ><img
-                    src="./logo/H.logo.jpg"
-                    class="img-fluid"
-                    alt="logo"
-                /></a>
-              </div>
-              <!-- <div class="footer-text">
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="./frames.html"
+                    ><img src="./logo/H.logo.jpg" class="img-fluid" alt="logo"
+                  /></a>
+                </div>
+                <!-- <div class="footer-text">
                 <p>
                   Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
                   sed do eiusmod tempor incididuntut consec tetur adipisicing
                   elit,Lorem ipsum dolor sit amet.
                 </p>
               </div> -->
-              <div class="footer-social-icon">
-                <span>Suivez nous</span>
-                <a href="https://www.facebook.com/GalerieYekmalyan/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                <a href="https://www.facebook.com/yekmalyan.khatchkar/"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                <a href="https://twitter.com/YekmalyanGaller"><i class="fab fa-twitter twitter-bg"></i></a>
-                <a href="https://www.instagram.com/atelier.yekmalyan/">  <i class="fab fa-instagram"></i></a>
-               
+                <div class="footer-social-icon">
+                  <span>Suivez nous</span>
+                  <a href="https://www.facebook.com/GalerieYekmalyan/"
+                    ><i class="fab fa-facebook-f facebook-bg"></i
+                  ></a>
+                  <a href="https://www.facebook.com/yekmalyan.khatchkar/"
+                    ><i class="fab fa-facebook-f facebook-bg"></i
+                  ></a>
+                  <a href="https://twitter.com/YekmalyanGaller"
+                    ><i class="fab fa-twitter twitter-bg"></i
+                  ></a>
+                  <a href="https://www.instagram.com/atelier.yekmalyan/">
+                    <i class="fab fa-instagram"></i
+                  ></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-            <div class="footer-widget">
-              <div class="footer-widget-heading">
-                <h3>Menu</h3>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Menu</h3>
+                </div>
+                <ul>
+                  <li><a href="./page1FR.html">Sculpture de salon</a></li>
+                  <li><a href="./kotox_FR.html">Sculpture monumentale</a></li>
+                  <li>
+                    <a href="./nkarazardum/zardumfr.html">Illustrations</a>
+                  </li>
+                  <li><a href="./grafika/grafikafr.html">Graphisme</a></li>
+                  <li><a href="./catalog/catalogfr.html">Galerie</a></li>
+                  <li>
+                    <a href="./ashxatavayr/ashxatavayrfr.html">Atelier</a>
+                  </li>
+                  <li><a href="./Mamul/mamulfr.html">Presse/Médias</a></li>
+                  <li><a href="./simpozeum/simpozeumfr.html">Symposiums</a></li>
+                  <li><a href="./arvestanoc/arvestanocfr.html">Atelier</a></li>
+                  <li><a href="./hasarakakan/hasarakakanfr.html">Public</a></li>
+                </ul>
               </div>
-              <ul>
-                <li><a href="./page1FR.html">Sculpture de salon</a></li>
-                <li><a href="./kotox_FR.html">Sculpture monumentale</a></li>
-                <li><a href="./nkarazardum/zardumfr.html">Illustrations</a></li>
-                <li><a href="./grafika/grafikafr.html">Graphisme</a></li>
-                <li><a href="./catalog/catalogfr.html">Galerie</a></li>
-                <li><a href="./ashxatavayr/ashxatavayrfr.html">Atelier</a></li>
-                <li><a href="./Mamul/mamulfr.html">Presse/Médias</a></li>
-                <li><a href="./simpozeum/simpozeumfr.html">Symposiums</a></li>
-                <li><a href="./arvestanoc/arvestanocfr.html">Atelier</a></li>
-                <li><a href="./hasarakakan/hasarakakanfr.html">Public</a></li>
-              </ul>
             </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-            <div class="footer-widget">
-              <div class="footer-widget-heading">
-                <h3>Liens utiles</h3>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Liens utiles</h3>
+                </div>
+                <ul id="container_columm">
+                  <li>
+                    <a href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html">
+                      Biographie
+                    </a>
+                  </li>
+                  <li><a href="./Cucahandes/cucfr.html">Exposition</a></li>
+                  <li>
+                    <a href="./simpozeum/simpozeumfr.html"> Symposiums </a>
+                  </li>
+                  <li><a href="./Patvirir/patvirifr.html">Commandes </a></li>
+                  <li><a href="./Form-registr/formFR.html">Contact</a></li>
+                </ul>
               </div>
-              <ul id="container_columm">
-                <li><a href="./Yekmalyan_kensagrutyun/kensagrutyunfr.html"> Biographie </a></li>
-                <li><a href="./Cucahandes/cucfr.html">Exposition</a></li>
-                <li><a href="./simpozeum/simpozeumfr.html"> Symposiums </a></li>
-                <li><a href="./Patvirir/patvirifr.html">Commandes </a></li>
-                <li><a href="./Form-registr/formFR.html">Contact</a></li>
-              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-space">© All rights reserved Artur Paronyan  +(374)33-26-84-26</div>
-  </footer>
-
-</body>
-
+      <div class="container-space">
+        © All rights reserved Artur Paronyan +(374)33-26-84-26
+      </div>
+    </footer>
+    <script src="./Yekmalyan_kensagrutyun/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./Yekmalyan_kensagrutyun/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./Yekmalyan_kensagrutyun/main.js"></script>
+  </body>
 </html>

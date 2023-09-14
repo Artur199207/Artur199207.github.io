@@ -2,7 +2,6 @@ body {
   width: 100% !important;
 }
 
-
 .megamenu {
   position: static;
 }
@@ -70,14 +69,8 @@ body {
   width: 100%;
   min-height: 556px;
   background: #bdc3c7;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,
-      #2c3e50,
-      #bdc3c7);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,
-      #2c3e50,
-      #bdc3c7);
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7) !important;
+  background: linear-gradient(to right, #2c3e50, #bdc3c7) !important;
 }
 
 .background_url_image {
@@ -106,7 +99,6 @@ body {
 .container-kens:link {
   text-decoration: none;
 }
-
 
 .container-main-master {
   max-width: 1440px;
@@ -142,7 +134,7 @@ body {
   margin: 52px 67px;
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width: 1250px) {
   .container-main-master {
     max-width: 1250px;
     width: 100%;
@@ -157,7 +149,7 @@ body {
   }
 }
 
-@media screen and (max-width:1110px) {
+@media screen and (max-width: 1110px) {
   .container-main-master {
     max-width: 1110px;
     width: 100%;
@@ -176,32 +168,6 @@ body {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 :root {
   --user-button-circle: rgba(0, 0, 0, 0.025);
@@ -230,7 +196,6 @@ body {
 }
 
 @-webkit-keyframes slide {
-
   0%,
   50% {
     opacity: 0;
@@ -244,7 +209,6 @@ body {
 }
 
 @keyframes slide {
-
   0%,
   50% {
     opacity: 0;
@@ -310,11 +274,13 @@ body {
   transition: 0s;
 }
 
-.body #user-button .u-icons a[href="https://twitter.com/zed_dash"] {
+.body #user-button .u-icons a[href="https://twitter.com/zed_dash"]
+{
   position: relative;
 }
 
-.body #user-button .u-icons a[href="https://twitter.com/zed_dash"]:before {
+.body #user-button .u-icons a[href="https://twitter.com/zed_dash"]:before
+{
   content: "Middle Click";
   position: absolute;
   top: -1.5rem;
@@ -330,16 +296,19 @@ body {
   border-radius: 0.25rem;
 }
 
-.body #user-button .u-icons a[href="https://twitter.com/zed_dash"].show:before {
+.body #user-button .u-icons a[href="https://twitter.com/zed_dash"].show:before
+{
   opacity: 1;
   transition: 0.25s ease-out;
 }
 
-.body #user-button .u-icons a[href="https://twitter.com/zed_dash"] div {
+.body #user-button .u-icons a[href="https://twitter.com/zed_dash"] div
+{
   color: #1da1f2;
 }
 
-.body #user-button .u-icons a[href="https://codepen.io/z-"] div {
+.body #user-button .u-icons a[href="https://codepen.io/z-"] div
+{
   background: black;
   color: white;
 }
@@ -376,7 +345,7 @@ body {
   animation-play-state: paused;
 }
 
-.body #user-button .u-icons>* {
+.body #user-button .u-icons > * {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -387,74 +356,74 @@ body {
   transition: 0.25s -0.05s;
 }
 
-.body #user-button .u-icons>*:before {
+.body #user-button .u-icons > *:before {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.body #user-button .u-icons>*:hover,
-body #user-button .u-icons>*:focus-within {
+.body #user-button .u-icons > *:hover,
+body #user-button .u-icons > *:focus-within {
   background: var(--hcolour);
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(1):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(1)~*:nth-child(1) {
+.body #user-button .u-icons > *:first-child:nth-last-child(1):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(1) ~ *:nth-child(1) {
   left: 25%;
   top: 25%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(2):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(2)~*:nth-child(1) {
+.body #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(1) {
   left: 37.5%;
   top: 18.75%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(2):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(2)~*:nth-child(2) {
+.body #user-button .u-icons > *:first-child:nth-last-child(2):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(2) ~ *:nth-child(2) {
   left: 18.75%;
   top: 37.5%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(1) {
+.body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(1) {
   left: 50%;
   top: 15.625%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(2) {
+.body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(2) {
   left: 25%;
   top: 25%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(3):nth-child(3),
-body #user-button .u-icons>*:first-child:nth-last-child(3)~*:nth-child(3) {
+.body #user-button .u-icons > *:first-child:nth-last-child(3):nth-child(3),
+body #user-button .u-icons > *:first-child:nth-last-child(3) ~ *:nth-child(3) {
   left: 15.625%;
   top: 50%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(1),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(1) {
+.body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(1),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(1) {
   left: 62.5%;
   top: 18.75%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(2),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(2) {
+.body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(2),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(2) {
   left: 37.5%;
   top: 18.75%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(3),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(3) {
+.body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(3),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(3) {
   left: 18.75%;
   top: 37.5%;
 }
 
-.body #user-button .u-icons>*:first-child:nth-last-child(4):nth-child(4),
-body #user-button .u-icons>*:first-child:nth-last-child(4)~*:nth-child(4) {
+.body #user-button .u-icons > *:first-child:nth-last-child(4):nth-child(4),
+body #user-button .u-icons > *:first-child:nth-last-child(4) ~ *:nth-child(4) {
   left: 18.75%;
   top: 62.5%;
 }
@@ -594,7 +563,7 @@ body #user-button:focus-within .u-icons {
   left: 20px;
 }
 
-.body .options .option.active .label .info>div {
+.body .options .option.active .label .info > div {
   left: 0px;
   opacity: 1;
 }
@@ -614,7 +583,7 @@ body #user-button:focus-within .u-icons {
   left: 10px;
 }
 
-.body .options .option:not(.active) .label .info>div {
+.body .options .option:not(.active) .label .info > div {
   left: 20px;
   opacity: 0;
 }
@@ -658,7 +627,7 @@ body #user-button:focus-within .u-icons {
   white-space: pre;
 }
 
-.body .options .option .label .info>div {
+.body .options .option .label .info > div {
   position: relative;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
 }
@@ -696,7 +665,6 @@ ul {
 :root {
   --height: calc(64vh - 31px);
   --width: 392px;
-
 }
 
 .us-tit {
@@ -708,7 +676,6 @@ ul {
   display: grid;
   transform: translate3d(0, 0, 0.1px);
   background-color: #303541;
-
 }
 
 #container-text-carousel {
@@ -839,7 +806,6 @@ ul {
 }
 
 @media screen and (min-width: 600px) {
-
   .carousel__item:nth-child(3),
   .carousel__item:nth-child(10) {
     flex: 0 0 10px;
@@ -896,10 +862,12 @@ ul {
   height: 100%;
   z-index: 1;
   opacity: 1;
-  background: linear-gradient(160deg,
-      rgba(2, 0, 36, 0) 40%,
-      rgba(118, 221, 136, 0.5) 70%,
-      rgba(0, 255, 246, 0.6) 100%);
+  background: linear-gradient(
+    160deg,
+    rgba(2, 0, 36, 0) 40%,
+    rgba(118, 221, 136, 0.5) 70%,
+    rgba(0, 255, 246, 0.6) 100%
+  );
   transition: all 0.66s cubic-bezier(0.55, 0.24, 0.18, 1);
 }
 
@@ -920,9 +888,11 @@ ul {
   min-height: 476px;
   padding: 1em;
   z-index: 2;
-  background-image: radial-gradient(ellipse at 0px 0px,
-      rgba(0, 0, 0, 0.4) 20%,
-      transparent 50%);
+  background-image: radial-gradient(
+    ellipse at 0px 0px,
+    rgba(0, 0, 0, 0.4) 20%,
+    transparent 50%
+  );
   background-size: 170% 200px;
   background-repeat: no-repeat;
   position: absolute;
@@ -974,9 +944,11 @@ ul {
     transform-origin: bottom right;
     align-items: end;
     justify-content: end;
-    background-image: radial-gradient(ellipse at 100% 100%,
-        rgba(0, 0, 0, 0.4) 0%,
-        transparent 50%);
+    background-image: radial-gradient(
+      ellipse at 100% 100%,
+      rgba(0, 0, 0, 0.4) 0%,
+      transparent 50%
+    );
     background-position: -100% 100%;
     flex-direction: column;
     position: absolute;
@@ -1067,7 +1039,7 @@ html {
   border-bottom: 1px solid #373636;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
   .footer-cta {
     max-width: 500px;
     width: 100%;
@@ -1275,14 +1247,17 @@ html {
   color: #878787;
 }
 
-
 @media screen and (max-width: 800px) {
   .carousel__contents {
     transform: translateX(-100%) rotate(90deg);
     transform-origin: bottom right;
     align-items: center;
     /* justify-content: ; */
-    background-image: radial-gradient(ellipse at 100% 100%, rgba(0, 0, 0, 0.4) 0%, transparent 50%);
+    background-image: radial-gradient(
+      ellipse at 100% 100%,
+      rgba(0, 0, 0, 0.4) 0%,
+      transparent 50%
+    );
     background-position: -100% 100%;
     flex-direction: column;
     position: absolute;
@@ -1292,24 +1267,6 @@ html {
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .container-space {
   font-size: 14px;
@@ -1334,7 +1291,15 @@ html {
   position: relative;
   padding: 6px 2px;
   top: 4px;
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
   color: #fff;
 }
 
